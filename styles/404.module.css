@@ -1,1 +1,16 @@
-
+.container {
+    width: 80vw;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.link {
+    margin: 10px;
+    color: blue;
+    text-decoration: underline;
+  }
+  .link:hover {
+    color: red;
+  }
